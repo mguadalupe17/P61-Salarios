@@ -129,7 +129,7 @@ void Salarios::on_actionAcerca_de_triggered()
     // Enviar datos a la otra ventana
     dialog->setVersion(VERSION);
     // Mostrar la venta en modo MODAL
-    dialog->exec();
+    dialog->exec(); //acceder a los datos
     // Luego de cerrar la ventana, se acceden a los datos de la misma
     qDebug() << dialog->valor();
 
