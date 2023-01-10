@@ -25,6 +25,9 @@
      <height>32</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);</string>
+   </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
    </property>
@@ -54,14 +57,14 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>70</y>
+     <x>20</x>
+     <y>60</y>
      <width>461</width>
      <height>141</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Apliacción para calcular salarios semanales de obreros.&lt;/p&gt;&lt;p&gt;Autor: Rodrigo Tufiño &amp;lt;&lt;a href=&quot;mailto:rtufino@ups.edu.ec&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;rtufino@ups.edu.ec&lt;/span&gt;&lt;/a&gt;&amp;gt;&lt;/p&gt;&lt;p&gt;Universidad Politécnica Salesiana&lt;br/&gt;Carrera de Computación&lt;br/&gt;Todos los derechos reservados (r) 2022&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Apliacción para calcular salarios semanales de obreros.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Autor: Rodrigo Tufiño &amp;lt;&lt;/span&gt;&lt;a href=&quot;mailto:rtufino@ups.edu.ec&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;rtufino@ups.edu.ec&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Universidad Politécnica Salesiana&lt;br/&gt;Carrera de Computación&lt;br/&gt;Todos los derechos reservados (r) 2022&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
