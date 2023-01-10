@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>600</width>
-    <height>376</height>
+    <height>390</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -235,8 +235,8 @@ font: 10pt &quot;Segoe UI&quot;;</string>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNuevo">
    <property name="icon">
-    <iconset>
-     <normaloff>../../Downloads/abrir-caja.png</normaloff>../../Downloads/abrir-caja.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/Iconos/abrir-caja.png</normaloff>:/Recursos/Iconos/abrir-caja.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Nuevo</string>
@@ -247,8 +247,8 @@ font: 10pt &quot;Segoe UI&quot;;</string>
   </action>
   <action name="actionAbrir">
    <property name="icon">
-    <iconset>
-     <normaloff>../../Downloads/abrir-correo-electronico.png</normaloff>../../Downloads/abrir-correo-electronico.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/Iconos/abrir-correo-electronico.png</normaloff>:/Recursos/Iconos/abrir-correo-electronico.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Abrir</string>
@@ -259,8 +259,8 @@ font: 10pt &quot;Segoe UI&quot;;</string>
   </action>
   <action name="actionGuardar">
    <property name="icon">
-    <iconset>
-     <normaloff>../../Downloads/disco-flexible.png</normaloff>../../Downloads/disco-flexible.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/Iconos/disco-flexible.png</normaloff>:/Recursos/Iconos/disco-flexible.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Guardar</string>
@@ -271,8 +271,8 @@ font: 10pt &quot;Segoe UI&quot;;</string>
   </action>
   <action name="actionCalcular">
    <property name="icon">
-    <iconset>
-     <normaloff>../../Downloads/calcular.png</normaloff>../../Downloads/calcular.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/Iconos/calcular.png</normaloff>:/Recursos/Iconos/calcular.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Calcular</string>
@@ -283,8 +283,8 @@ font: 10pt &quot;Segoe UI&quot;;</string>
   </action>
   <action name="actionSalir">
    <property name="icon">
-    <iconset>
-     <normaloff>../../Downloads/salida.png</normaloff>../../Downloads/salida.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/Iconos/salida.png</normaloff>:/Recursos/Iconos/salida.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Salir</string>
@@ -295,8 +295,8 @@ font: 10pt &quot;Segoe UI&quot;;</string>
   </action>
   <action name="actionAcerca_de">
    <property name="icon">
-    <iconset>
-     <normaloff>../../Downloads/informacion.png</normaloff>../../Downloads/informacion.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/Iconos/informacion.png</normaloff>:/Recursos/Iconos/informacion.png</iconset>
    </property>
    <property name="text">
     <string>Acerca de Salarios</string>
