@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>600</width>
-    <height>355</height>
+    <height>376</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -192,7 +192,7 @@ background-color: rgb(255, 255, 255);</string>
      <x>0</x>
      <y>0</y>
      <width>600</width>
-     <height>22</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArchivo">
@@ -219,8 +219,8 @@ background-color: rgb(255, 255, 255);</string>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNuevo">
    <property name="icon">
-    <iconset resource="Recursos.qrc">
-     <normaloff>:/Recursos/Iconos/salario (1).png</normaloff>:/Recursos/Iconos/salario (1).png</iconset>
+    <iconset>
+     <normaloff>../../Downloads/abrir-caja.png</normaloff>../../Downloads/abrir-caja.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Nuevo</string>
@@ -230,6 +230,10 @@ background-color: rgb(255, 255, 255);</string>
    </property>
   </action>
   <action name="actionAbrir">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/abrir-correo-electronico.png</normaloff>../../Downloads/abrir-correo-electronico.png</iconset>
+   </property>
    <property name="text">
     <string>&amp;Abrir</string>
    </property>
@@ -238,6 +242,10 @@ background-color: rgb(255, 255, 255);</string>
    </property>
   </action>
   <action name="actionGuardar">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/disco-flexible.png</normaloff>../../Downloads/disco-flexible.png</iconset>
+   </property>
    <property name="text">
     <string>&amp;Guardar</string>
    </property>
@@ -246,6 +254,10 @@ background-color: rgb(255, 255, 255);</string>
    </property>
   </action>
   <action name="actionCalcular">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/calcular.png</normaloff>../../Downloads/calcular.png</iconset>
+   </property>
    <property name="text">
     <string>&amp;Calcular</string>
    </property>
@@ -254,6 +266,10 @@ background-color: rgb(255, 255, 255);</string>
    </property>
   </action>
   <action name="actionSalir">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/salida.png</normaloff>../../Downloads/salida.png</iconset>
+   </property>
    <property name="text">
     <string>&amp;Salir</string>
    </property>
@@ -262,6 +278,10 @@ background-color: rgb(255, 255, 255);</string>
    </property>
   </action>
   <action name="actionAcerca_de">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/informacion.png</normaloff>../../Downloads/informacion.png</iconset>
+   </property>
    <property name="text">
     <string>Acerca de Salarios</string>
    </property>
