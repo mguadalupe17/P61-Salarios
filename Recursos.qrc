@@ -7,5 +7,8 @@
         <file>Recursos/Iconos/informacion.png</file>
         <file>Recursos/Iconos/salario (1).png</file>
         <file>Recursos/Iconos/salida.png</file>
+        <file>ingles.qm</file>
+        <file>aleman.qm</file>
+        <file>frances.qm</file>
     </qresource>
 </RCC>
